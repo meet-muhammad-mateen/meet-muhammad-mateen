@@ -10,41 +10,61 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 Engineering Philosophy & Background
 
-I am a **Full-Stack & Front-End Specialist** with a passion for designing sleek, modern user interfaces and backing them up with robust, data-driven backend architectures. Currently studying Computer Science at APSACS and working as a Web Developer Intern at After Concept, I thrive at the intersection of beautiful UI design and advanced integrations like AI and automated data pipelines.
+I am a **Full-Stack & Front-End Specialist** deeply focused on building scalable, performant, and meticulously designed web applications. Currently studying Computer Science at APSACS and working as a Web Developer Intern at After Concept, I approach software engineering with a strict attention to detail—from pixel-perfect UI implementations to robust, data-driven backend architectures. 
 
-- 🔭 **Currently working on**: Expanding full-stack capabilities with Next.js, Django, and AI (OpenAI/Gemini).
-- 🌱 **Currently learning**: Advanced Headless Browser Automation (Playwright) and Cloud Databases (Supabase).
-- 💼 **Experience**: Web Developer Intern at After Concept.
-- ⚡ **Fun fact**: I love turning complex data into beautiful, intuitive dashboards.
+My core focus lies at the intersection of beautiful user experiences and advanced system integrations, utilizing modern frameworks alongside AI and automated data pipelines to solve complex business problems.
+
+- 🔭 **Current Focus**: Architecting full-stack solutions using Next.js App Router, Django ORM, and integrating Large Language Models (OpenAI/Gemini).
+- 🌱 **Deep Learning**: Mastering Headless Browser Automation (Playwright) for data extraction and E2E testing, alongside Cloud Database management (Supabase/PostgreSQL).
+- 💼 **Professional Experience**: Web Developer Intern at After Concept, contributing to production-grade codebases and iterative UI refinements.
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 🛠️ Detailed Technology Stack
 
+I believe in choosing the right tool for the job. Below is a detailed breakdown of my technical proficiencies and how I apply them in production environments:
+
+#### 🎨 Front-End Engineering (UI/UX & Client Logic)
 <p>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <br/>
+</p>
+
+- **React & Next.js**: Proficient in building SSR/SSG applications, leveraging Server Components, and managing complex client state with custom hooks and `@tanstack/react-query`.
+- **TypeScript**: Strictly typing props, API responses, and application state to ensure type safety and reduce runtime errors.
+- **Tailwind CSS & Animations**: Designing responsive, mobile-first layouts and implementing smooth user interactions using `framer-motion` and Tailwind utility classes.
+
+#### ⚙️ Back-End Architecture & APIs
+<p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+</p>
+
+- **Django**: Architecting MVC web applications, writing efficient ORM queries, and handling secure user authentication and session management.
+- **FastAPI & Python**: Building high-performance, asynchronous REST APIs for microservices and data processing pipelines.
+
+#### 🗄️ Database, Cloud & Automation
+<p>
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <br/>
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
 </p>
 
+- **PostgreSQL & Supabase**: Designing relational database schemas, writing complex SQL queries, and utilizing Supabase for real-time data sync and BaaS architecture.
+- **Playwright**: Automating browser interactions for robust E2E testing and scraping dynamic data from modern web applications.
+- **AI Integrations**: Prompt engineering and API integration with OpenAI and Gemini to build smart, context-aware features.
+
+<details>
+<summary><b>View High-Level Tech Stack Map</b> (Click to expand)</summary>
+
 ```mermaid
 flowchart TD
-    %% Define styles for tech stack nodes
     classDef main fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#fff
     classDef category fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#fff
     classDef item fill:#1e1e1e,stroke:#4b5563,stroke-width:1px,color:#e5e7eb
@@ -77,24 +97,25 @@ flowchart TD
     Tools --- T1(Git / Playwright):::item
     Tools --- T2(OpenAI / Gemini):::item
 ```
+</details>
 
 ---
 
-### 🚀 Featured Projects & Portfolio
+### 🚀 Featured Architectural Projects
 
-Here is a detailed breakdown of my key projects, ranging from full-stack data dashboards to interactive frontend interfaces:
+My portfolio reflects a commitment to building complete, well-architected systems rather than just simple scripts.
 
 #### 1. LandDesign Intelligence Dashboard
-A robust, real estate data tracking application engineered with Python and Django. 
-- **Architecture**: Features secure user authentication (`csrfmiddlewaretoken`), state management, and API processing logic. 
-- **Design Focus**: Transforming raw property data into an intuitive, high-performance UI.
+A robust, real-estate data tracking application engineered to handle complex datasets securely.
+- **Security & Auth**: Implemented secure user authentication utilizing Django's built-in session management and CSRF protection (`csrfmiddlewaretoken`).
+- **Data Pipeline**: Transformed raw property data into an intuitive, high-performance UI using Python processing logic.
+- **Architecture**: A monolithic Django architecture connected to a PostgreSQL database, designed for rapid data retrieval and rendering.
 
 <details>
-<summary><b>View Dashboard Architecture Diagram</b> (Click to expand)</summary>
+<summary><b>View System Architecture Diagram</b> (Click to expand)</summary>
 
 ```mermaid
 flowchart TD
-    %% Define styles for a dark/modern theme
     classDef frontend fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
     classDef backend fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#fff
     classDef database fill:#701a75,stroke:#d946ef,stroke-width:2px,color:#fff
@@ -113,7 +134,6 @@ flowchart TD
         Logic --> Scraper[Data Scraper]
     end
 
-    %% Apply styles
     class UI frontend
     class API,Auth,Logic backend
     class DB database
@@ -122,23 +142,25 @@ flowchart TD
 </details>
 
 #### 2. College Digital Hub
-A comprehensive educational platform designed to streamline college operations.
-- **Tech Stack**: Built utilizing Next.js for a lightning-fast frontend and FastAPI for a highly concurrent backend.
-- **Features**: Database integration via Supabase, focusing on seamless student/faculty data flows.
+A comprehensive educational platform designed to streamline complex college operations and data flows.
+- **High-Performance Backend**: Utilized FastAPI for asynchronous endpoint handling, dramatically reducing response times for student queries.
+- **Modern Frontend**: Built with Next.js App Router for optimal SEO and fast initial page loads.
+- **Cloud Database**: Integrated with Supabase for seamless, real-time database updates between faculty and students.
 
 #### 3. Bookshelf Online (`BOOK-SLEF`)
-A highly interactive, modern web application for cataloging books.
-- **Tech Stack**: Scaffolded with **Vite + React + TypeScript**.
-- **Libraries Used**: Leverages `@tanstack/react-query` for advanced server state management, `framer-motion` for smooth UI animations, and `lucide-react` for crisp iconography.
+A highly interactive, modern web application for cataloging books with a focus on UI/UX micro-interactions.
+- **Build Tooling**: Scaffolded using **Vite** for incredibly fast HMR and optimized production builds.
+- **Type Safety**: Fully typed with **TypeScript** to ensure reliable data structures.
+- **Advanced State**: Leverages `@tanstack/react-query` for intelligent caching and server state synchronization, ensuring the UI is never blocked by network requests.
 
-#### 4. Lahore Gates Café / Gossip Café (`CAFE-WEBSITE`)
-Responsive, highly visual landing pages created for local businesses.
-- **Tech Stack**: HTML5, CSS3, JavaScript, and Tailwind CSS.
-- **Features**: Utilizes Tailwind via CDN to rapidly prototype and deliver a monolithic, beautifully styled user interface without build-step overhead.
+#### 4. Lahore Gates Café & Gossip Café (`CAFE-WEBSITE`)
+Performance-focused, highly visual landing pages created for local hospitality businesses.
+- **Zero-Build Optimization**: Utilized Tailwind CSS via CDN for rapid prototyping and deployment without complex build steps.
+- **Monolithic HTML Mastery**: Structured semantic HTML5 and CSS3 to create perfectly responsive layouts that perform flawlessly on mobile devices.
 
 ---
 
-### 📊 GitHub Activity
+### 📊 GitHub Activity & Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=meet-muhammad-mateen&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
