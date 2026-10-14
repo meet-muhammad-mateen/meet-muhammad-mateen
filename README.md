@@ -216,9 +216,9 @@ flowchart TD
 
 ---
 
-### 2. 🎓 [College Digital Hub](https://apsac-nmc-bwp.vercel.app/)
+### 2. 🎓 [College Digital Hub](https://apsac-nmc-bwp.runs-on.dev/)
 > **Full-Stack Academic Portal & Student Information System**  
-> *Live Demo:* **[https://apsac-nmc-bwp.vercel.app/](https://apsac-nmc-bwp.vercel.app/)**
+> *Live Demo:* **[https://apsac-nmc-bwp.runs-on.dev/](https://apsac-nmc-bwp.runs-on.dev/)**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
